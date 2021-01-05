@@ -1,4 +1,4 @@
-# Exercices-front-end
-HTML-CSS-JS / Exercices formation Simplon
+# Exos-front-end
+HTML-CSS-JS / Exos formation Simplon
 
-Exercices proposés pendant la formation front-end avec Simplon.co
+Quelques exercices réalisées pendant la partie front-end de la formation Simplon
