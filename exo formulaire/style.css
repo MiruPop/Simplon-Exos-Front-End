@@ -1,0 +1,77 @@
+.battle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+.envoi {
+    display: block;
+    border: 1px solid transparent;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Open Sans,sans-serif,Arial;
+    font-size: larger;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    color: white;
+    background-color: blueviolet;
+    text-shadow: 0 0 0.5em rgb(188, 179, 247), 0 0 0.5em rgb(188, 179, 247), 0 0 0.5em rgb(188, 179, 247)
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 60px;
+}
+.identity {
+    display: flex;
+    margin-top: 20px;
+}
+#prenom {
+    width: 90%;
+}
+
+div #ville {
+    width: 97%;
+}
+#age {
+    width: 45%;
+}
+#ville {
+    width: 90%;
+}
+#choix {
+    width: 47%;
+    height: 22px;
+}
+#check {
+    margin-top: 20px;
+}
+#btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(74, 74, 248);
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+#modal {
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}

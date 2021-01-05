@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page2">
+    <h1>Présentez-vous</h1>
+    <form action="">
+        <div class="radios">
+            <input type="radio" name="drone" value="homme" checked id="radio1">
+            <label for="offres">Homme</label>
+            <input type="radio" name="drone" value="femme" checked id="radio2">
+            <label for="offres">Femme</label>
+        </div>
+
+        <div class="identity">
+            <div id="firstname">
+                <p>Prénom</p>
+                <input type="text" placeholder="Jeanne..." id="prenom">
+            </div>
+            <div id="lastname">
+                <p>Nom</p>
+                <input type="text" placeholder="D'ARC..." id="nom">
+            </div>
+        </div>
+        
+        <div class="city_age">
+            <div id="city">
+                <p>Ville</p>
+                <input type="text" placeholder="Rouen..." id="ville">
+            </div>
+            <div class="input_age">
+                <p>Age</p>
+                <input type="number" placeholder="18..." id="age">
+            </div>
+        </div>
+                          
+        <div id="teacher">
+            <p>Formateur préféré</p>
+            <select name="categ" class="choix-control" id="choix">
+                <option selected>Choix</option>
+                <option value="Seral">Seral</option>
+                <option value="Manel">Manel</option>
+                <option value="autre">Autre</option>
+            </select>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="check">
+            <label>J'aime Javascript</label>
+        </div>
+                
+        <input type="submit" value="Envoyer" id="btn">
+
+    </form>
+
+    <div id="modal"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
